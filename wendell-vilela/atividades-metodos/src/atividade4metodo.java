@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class atividade4metodo {
 
 
+
+
     Scanner sc = new Scanner(System.in);
 
     // a) Método que encontra o maior valor
