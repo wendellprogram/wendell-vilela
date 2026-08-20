@@ -60,4 +60,5 @@ public class atividade11metodo {
         System.out.println("Média: " + media(vetor));
 
         sc.close();
+    }
 }
