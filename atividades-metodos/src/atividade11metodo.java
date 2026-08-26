@@ -5,7 +5,7 @@ public class atividade11metodo {
 
     // a) Método que encontra o maior valor
     public static int maior(int[] vetor) {
-        int maior = vetor[0];
+        int maior = vetor[0];// ou maxvalue e minvalue
 
         for (int i = 1; i < vetor.length; i++) {
             if (vetor[i] > maior) {
@@ -17,7 +17,7 @@ public class atividade11metodo {
     }
 
     // b) Método que encontra o menor valor
-    public static int menor(int[] vetor) {
+    public static int chamarmenor(int[] vetor) {
         int menor = vetor[0];
 
         for (int i = 1; i < vetor.length; i++) {
@@ -30,13 +30,13 @@ public class atividade11metodo {
     }
 
     // c) Método que calcula a média
-    public static double media(int[] vetor) {
+    public static double chamarmedia(int[] vetor) {
         int soma = 0;
 
         for (int i = 0; i < vetor.length; i++) {
             soma += vetor[i];
         }
-
+/// //ou cria variavel e so joga o return da variavel criada
         return (double) soma / vetor.length;
     }
 
@@ -56,8 +56,8 @@ public class atividade11metodo {
         }
 
         System.out.println("\nMaior elemento: " + maior(vetor));
-        System.out.println("Menor elemento: " + menor(vetor));
-        System.out.println("Média: " + media(vetor));
+        System.out.println("Menor elemento: " + chamarmenor(vetor));
+        System.out.println("Média: " + chamarmedia(vetor));
 
         sc.close();
     }
