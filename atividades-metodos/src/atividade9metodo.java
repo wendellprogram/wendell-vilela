@@ -4,12 +4,12 @@ public class atividade9metodo {
 
 
     public static boolean chamarpar(int numero) {
-
-        if (numero % 2 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return numero % 2 == 0;
+      //  if (numero % 2 == 0) {
+        //    return true;
+      //  } else {
+         // return false;
+      //  }
     }
 
 
