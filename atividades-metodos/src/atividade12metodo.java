@@ -6,7 +6,7 @@ public class atividade12metodo {
   Scanner sc= new Scanner(System.in);
 
         public static char verificarpalavra(String palavra) {
-
+//palavra.length() % 2==0 ? palavra.charAt(0) : palavra.charAt(1) ou isso coisas rapidas vdd ou false
             if (palavra.length() % 2 == 0) {
                 return palavra.charAt(0);
             }
