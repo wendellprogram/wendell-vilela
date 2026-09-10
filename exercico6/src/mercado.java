@@ -6,5 +6,7 @@ public class mercado {
         int laranja;
         double precol;
 
-    }
+
+
+}
 

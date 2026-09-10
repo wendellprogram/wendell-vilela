@@ -1,4 +1,7 @@
 public class principal {
+    public principal() {
+    }
+
     public static void main(String[] args) {
 
                 mercado v1 = new mercado();
