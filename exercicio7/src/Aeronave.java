@@ -21,6 +21,10 @@ public class Aeronave {
         this.velocidadeMax = velocidadeMax;
         this.capacidadeCombustivel = capacidadeCombustivel;
         this.queimaCombustivelMin = queimaCombustivelMin;
+        setModelo  (modelo);/////para nao bugar é necessario
+        setVelocidadeMax (velocidadeMax);
+        setCapacidadeCombustivel  (capacidadeCombustivel);
+        setQueimaCombustivelMin (queimaCombustivelMin);
     }
 
     @Override
@@ -44,7 +48,12 @@ public class Aeronave {
     }
 
     public void setModelo(String modelo) {
-        this.modelo = modelo;
+        if (modelo==null||modelo.isBlank()){
+            System.out.println("modelo errado maninho invalido");///caso resultado nulo ou espacosssss
+        }else{
+            this.modelo = modelo;
+        }
+
     }
 
     public int getPassageiros() {
@@ -52,7 +61,12 @@ public class Aeronave {
     }
 
     public void setPassageiros(int passageiros) {
-        this.passageiros = passageiros;
+        if (passageiros <0){
+            System.out.println("erro numero de passageiros invalidos"); ////caso numero negativo
+        }else {
+            this.passageiros = passageiros;
+        }
+/// /so fazer com os outros tambemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
     }
 
     public double getVelocidadeMax() {

@@ -5,7 +5,8 @@ public class principal {
         Aeronave a1 = new Aeronave("boeing 777", 100, 1000, 100, 1);
         Aeronave a2 = new Aeronave("jetpack", 1, 1000000, 10000, 5);
         Aeronave a3 = new Aeronave("b-2", 2, 11000, 1000, 3);
-        Aeronave a4 = new Aeronave("boing 737", 130, 15000, 15000, 5);Aeronave[] avioes = {a1, a2, a3, a4};
+        Aeronave a4 = new Aeronave("boing 737", 130, 15000, 15000, 5);
+        Aeronave[] avioes = {a1, a2, a3, a4};
 ///
         Aeronave maiorPassageiros = avioes[0];
 
