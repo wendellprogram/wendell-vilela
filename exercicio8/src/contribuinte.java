@@ -7,7 +7,7 @@ public class contribuinte {
 
     public contribuinte(String nome, String cpf, String uf, double rendaAnual) {
         this.nome = nome;
-        this.cpf = cpf;
+        this.cpf = cpf;////foque no do professor nao no seu pois esse this nao funfa assim
         this.uf = uf;
         this.rendaAnual = rendaAnual;
 

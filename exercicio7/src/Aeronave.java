@@ -61,7 +61,7 @@ public class Aeronave {
     }
 
     public void setPassageiros(int passageiros) {
-        if (passageiros <0){
+        if (passageiros <0){/// /nao fiz os trhow  pois meu codigo est diferente ao do professor
             System.out.println("erro numero de passageiros invalidos"); ////caso numero negativo
         }else {
             this.passageiros = passageiros;
