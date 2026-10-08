@@ -8,12 +8,13 @@ public class principal {
 
 
         concessionaria c1 = new concessionaria();
-
+concessionaria c2 = new concessionaria();
 
         c1.adicionarveiculo(v1);
         c1.adicionarveiculo(v2);
-        c1.adicionarveiculo(v3);
+        c2.adicionarveiculo(v3);
         System.out.println(c1.obterVeiculoMaisBarato());
+        System.out.println(c2.obterVeiculoMaisBarato());
 
 
     }
