@@ -8,14 +8,14 @@ public class SistemasAlunos {
         alunos = new ArrayList<Aluno>();
     }
 
-    public void adicionarAluno(Aluno matricula) {
+    public void adicionarAluno(Aluno aluno) {
         for (Aluno a : alunos) {
-            if (a.getMatricula().equals(matricula.getMatricula())) {
+            if (a.getMatricula().equals(aluno.getMatricula())) {
                 throw new IllegalArgumentException("aluno ja cadastrado");
             }
 
         }
-        alunos.add(matricula);
+        alunos.add(aluno);
     }
 
         public List<Aluno> obterAlunoIdadeMaior ( double idade){
