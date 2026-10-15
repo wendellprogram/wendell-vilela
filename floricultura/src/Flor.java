@@ -15,7 +15,7 @@ public class Flor {
 
     public void setNome(String nome) {
         if(nome==null || nome.isBlank()){
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("invalido");
         }
         this.nome = nome;
     }
